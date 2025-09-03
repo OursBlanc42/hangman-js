@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css">
+		<title>Hangman v4</title>
+	</head>
+	<body>
+		<h1>Jeu du Pendu</h1>
+		<p>Tapez des lettres jusqu'a trouver le mot !</p>
+
+		<div id="wordMasked"></div>
+		
+		<hr>
+		
+		<p>Lettres essayées :</p>
+		<div id="history"></div>
+		
+		<p>Vies restantes :</p>
+		<div id="life"></div>
+		
+		<div id="message"></div>
+		
+		<img id="state" src =""/>
+
+		
+		
+		<button id="newGame">Nouvelle partie</button>
+
+		<script src="wordLibrary.js"></script>
+		<script src="hangman.js"></script>
+
+	</body>
+</html>

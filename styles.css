@@ -1,0 +1,151 @@
+:root {
+  --font-family: 'Segoe UI', sans-serif;
+  --bg-color: #f0f0f0;
+  --text-color: #222;
+  --primary-color: #0066cc;
+  --accent-color: #ff4444;
+  --success-color: #28a745;
+  --font-size-base: 18px;
+  --font-size-large: 32px;
+  --letter-spacing: 0.1em;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-size: var(--font-size-base);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+#wordMasked {
+  font-size: var(--font-size-large);
+  letter-spacing: var(--letter-spacing);
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding: 0.5rem 1rem;
+}
+
+#history {
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  color: #555;
+}
+
+#message {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+#message.success {
+  color: var(--success-color);
+}
+
+#message.fail {
+  color: var(--accent-color);
+}
+
+#message.victory {
+  color: var(--success-color);
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: 2px solid var(--success-color);
+  padding: 1rem;
+   margin : 1rem;
+  border-radius: 8px;
+  animation: pulseVictory 1s ease-in-out infinite;
+}
+
+#message.gameover {
+  color: var(--accent-color);
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: 2px solid var(--accent-color);
+  padding: 1rem;
+  margin : 1rem;
+  border-radius: 8px;
+  animation: pulseGameover 1s ease-in-out infinite;
+}
+
+hr {
+  position:relative;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, var(--bg-color), var(--primary-color), var(--bg-color));
+  width:100%;
+  margin: 45px;
+  text-align:center;
+}
+
+button#newGame {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#newGame:hover {
+  background-color: #004d99;
+}
+
+img {
+  border-radius: 20px;
+  border: 1px solid var(--primary-color);
+}
+
+
+@keyframes pulseVictory {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 10px var(--success-color);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px var(--success-color);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px var(--success-color);
+  }
+}
+
+
+@keyframes pulseGameover {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 10px var(--accent-color);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px var(--accent-color);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px var(--accent-color);
+  }
+}
+
+
