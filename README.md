@@ -12,6 +12,12 @@ I developed it in a particular environment (office setup without admin rights) t
 - Visual life system (with heart, and with small drawings)
 - Visual effect if game over or victory
 
+## Preview
+Here is a quick preview of the game:
+
+![Hangman Screenshot](screenshot.png)
+
+
 ## Getting started
 1 - Clone the repository
 ```bash
