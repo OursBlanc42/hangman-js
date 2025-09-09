@@ -2,6 +2,9 @@
 
 A hangman game running locally in JavaScript.
 
+[![🚀 Play !](https://img.shields.io/badge/Jouer_en_ligne-GitHub_Pages-ff69b4?style=for-the-badge&logo=github)](https://oursblanc42.github.io/hangman-js/)
+
+
 ## Intro
 This project was created after my training at Holberton School as a way to practice JavaScript and review some front-end concepts on my own, including DOM manipulation.
 I developed it in a particular environment (office setup without admin rights) that didn’t allow me to run a server, hence a small workaround to make it run locally only.
