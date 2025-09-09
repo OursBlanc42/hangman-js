@@ -149,3 +149,19 @@ img {
 }
 
 
+/* Modern footer links */
+footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0 0.2em;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-bottom 0.2s;
+}
+
+footer a:hover,
+footer a:focus {
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
+  text-decoration: none;
+}
