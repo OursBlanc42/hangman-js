@@ -22,6 +22,8 @@ Here is a quick preview of the game:
 
 
 ## Getting started
+If you dont wan't to play online, you can also :
+
 1 - Clone the repository
 ```bash
 git clone https://github.com/OursBlanc42/hangman-js.git
