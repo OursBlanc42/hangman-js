@@ -63,4 +63,8 @@ You can also download it
 ## License
 This project is licensed under CC BY-NC 4.0
 (Attribution required, no commercial use).
-See the LICENSE file
+
+See the LICENSE file attached.
+
+
+
