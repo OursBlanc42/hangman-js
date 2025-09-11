@@ -83,6 +83,9 @@ h1 {
   margin : 1rem;
   border-radius: 8px;
   animation: pulseGameover 1s ease-in-out infinite;
+  text-align: center;
+  white-space: pre-line;
+
 }
 
 hr {

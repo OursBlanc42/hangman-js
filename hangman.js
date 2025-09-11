@@ -115,7 +115,7 @@ function CheckLetter() {
 		message.classList.remove("fail");
 		message.classList.remove("success");
 		message.classList.add("gameover");
-		message.textContent = "Dommage ! Vous avez perdu !";
+		message.innerHTML = "Dommage ! Vous avez perdu !<br>Vous deviez trouver le mot : " + wordToGuess + " !";
 		return;
 	}
 	
