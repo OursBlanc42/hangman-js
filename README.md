@@ -14,6 +14,7 @@ I developed it in a particular environment (office setup without admin rights) t
 - Word library in **French** (approx 100 words)
 - Visual life system (with heart, and with small drawings)
 - Visual effect if game over or victory
+- Show the answer when the game is over
 
 ## Preview
 Here is a quick preview of the game:
@@ -56,7 +57,6 @@ You can also download it
 
 ## Todo / Ideas
 - Add difficulty selection (easy / medium / hard)
-- Show the answer when the game is over
 - Make the UI mobile responsive
 - Option to add custom words with persistence
 - Add language switch (English / French / others)
